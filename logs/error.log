@@ -1,0 +1,418 @@
+2022-10-05 20:24:54:2454 - [31merror[39m: [31maccountService login - Exceção: TypeError: logger.error is not a function[39m
+2022-10-05 20:24:54:2454 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:26:08:268 - [31merror[39m: [31muserRepository getByLogin - Exceção: TypeError: db.select is not a function[39m
+2022-10-05 20:26:08:268 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:26:08:268 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:26:46:2646 - [31merror[39m: [31muserRepository getByLogin - Exceção: TypeError: db.select is not a function[39m
+2022-10-05 20:26:46:2646 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:26:46:2646 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:27:53:2753 - [31merror[39m: [31muserRepository getByLogin - Exceção: TypeError: db.select is not a function[39m
+2022-10-05 20:27:53:2753 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:27:53:2753 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:29:03:293 - [31merror[39m: [31muserRepository getByLogin - Exceção: TypeError: db.select is not a function[39m
+2022-10-05 20:29:03:293 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:29:03:293 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:30:09:309 - [31merror[39m: [31muserRepository getByLogin - Exceção: TypeError: db.select is not a function[39m
+2022-10-05 20:30:09:309 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:30:09:309 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:30:39:3039 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Access denied for user 'pooii2022'@'152.255.101.5' (using password: NO)[39m
+2022-10-05 20:30:39:3039 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:30:39:3039 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:31:16:3116 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario us` inner join `TB_Perfil pe` where `TB_Usuario`.`Login` = ?[39m
+2022-10-05 20:31:16:3116 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:31:16:3116 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:32:16:3216 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Usuario`.`IDPerfil` = `TB_Perfil`.`IDPerfil` where `TB_Usuario`.`Login` = ?[39m
+2022-10-05 20:32:16:3216 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:32:16:3216 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:34:03:343 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Usuario`.`IDPerfil` = `TB_Perfil`.`IDPerfil` where `Login` = ?[39m
+2022-10-05 20:34:03:343 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:34:03:343 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:35:52:3552 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Usuario`.`IDPerfil` = `TB_Perfil`.`IDPerfil` where `TB_Usuario`.`Login` = ?[39m
+2022-10-05 20:35:52:3552 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:35:52:3552 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:37:06:376 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`Login` = ?[39m
+2022-10-05 20:37:06:376 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:37:06:376 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:38:41:3841 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`Login` = ?[39m
+2022-10-05 20:38:41:3841 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:38:41:3841 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:39:09:399 - [31merror[39m: [31maccountService login - Exceção: Error: data and hash arguments required[39m
+2022-10-05 20:39:09:399 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:39:59:3959 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`Login` = ?[39m
+2022-10-05 20:39:59:3959 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of null (reading 'password')[39m
+2022-10-05 20:39:59:3959 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:41:05:415 - [31merror[39m: [31maccountService login - Exceção: Error: data and hash arguments required[39m
+2022-10-05 20:41:05:415 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-05 20:41:32:4132 - [31merror[39m: [31maccountService login - Exceção: Error: data and hash arguments required[39m
+2022-10-05 20:41:32:4132 - [31merror[39m: [31maccountController login - Exceção gerada: ReferenceError: result is not defined[39m
+2022-10-06 20:09:49:949 - [31merror[39m: [31muserRepository getRoleById - Exceção: Error: select `pe`.`IDPerfil` as `id`, `pe`.`Descricao` as `description` from `TB_Perfil pe` where `pe`.`IDPerfil` = 2 limit 1 - Table 'padaria_poo.TB_Perfil pe' doesn't exist[39m
+2022-10-06 20:11:29:1129 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling FIRST. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`Login` = ? limit ?[39m
+2022-10-06 20:17:22:1722 - [31merror[39m: [31muserRepository getByLogin - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.Login] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Senha` as `password`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`Login` = ?[39m
+2022-10-07 19:13:15:1315 - [31merror[39m: [31mcategoryController getById - Categoria não encontrada: 3[39m
+2022-10-07 19:13:31:1331 - [31merror[39m: [31mcategoryService create - Exceção: ReferenceError: id is not defined[39m
+2022-10-07 19:16:25:1625 - [31merror[39m: [31mcategoryService create - Categoria criada com sucesso: Bomboniere[39m
+2022-10-07 19:16:45:1645 - [31merror[39m: [31mcategoryRepository create - Exceção: Error: insert into `TB_Categoria` (`Descricao`, `IDCategoria`) values ('Bomboniere Alt', '87') - Duplicate entry '87' for key 'PRIMARY'[39m
+2022-10-07 19:16:45:1645 - [31merror[39m: [31mcategoryService update - Exceção: ReferenceError: resultCreated is not defined[39m
+2022-10-07 19:17:59:1759 - [31merror[39m: [31mcategoryRepository update - Exceção: Error: Undefined binding(s) detected when compiling UPDATE. Undefined column(s): [TB_Categoria.IDCategoria] query: update `TB_Categoria` set `IDCategoria` = ?, `Descricao` = ? where `TB_Categoria`.`IDCategoria` = ?[39m
+2022-10-07 19:17:59:1759 - [31merror[39m: [31mcategoryService update - Exceção: ReferenceError: resultCreated is not defined[39m
+2022-10-07 19:19:37:1937 - [31merror[39m: [31mcategoryService update - Categoria editar com sucesso: Bomboniere Alt[39m
+2022-10-07 19:21:47:2147 - [31merror[39m: [31mcategoryService remove - Categoria deletada com sucesso, id: 87[39m
+2022-10-08 16:07:47:747 - [31merror[39m: [31mcategoryService create - Categoria criada com sucesso: Brinquedos do Dede[39m
+2022-10-08 16:08:12:812 - [31merror[39m: [31mcategoryService update - Categoria não encontrada: Brinquedos do Dede 2[39m
+2022-10-08 16:08:31:831 - [31merror[39m: [31mcategoryService update - Já existe uma categoria com este nome no banco: Brinquedos do Dede 2[39m
+2022-10-08 16:08:45:845 - [31merror[39m: [31mcategoryService remove - Categoria não existe, id: 86[39m
+2022-10-08 16:09:03:93 - [31merror[39m: [31mmovementRepository getAll - Exceção: ReferenceError: id is not defined[39m
+2022-10-08 16:09:08:98 - [31merror[39m: [31mmovementRepository getAll - Exceção: ReferenceError: id is not defined[39m
+2022-10-08 16:10:21:1021 - [31merror[39m: [31mmovementRepository getAll - Exceção: Error: select `TB_Movimento`.`IDMovimento` as `id`, `TB_Movimento`.`Descricao` as `description`, `TB_Movimento`.`Tipo` as `type`, `TB_Movimento`.`DataMovimento` as `date`, `TB_Movimento`.`Valor` as `totalValue`, `TB_Usuario`.`IDUsuario` as `userId`, `TB_Usuario`.`Login` as `userLogin`, `TB_Usuario`.`Nome` as `userName`, `TB_Usuario`.`Status` as `userStatus`, `TB_Perfil`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Movimento` inner join `TB_Movimento` on `TB_Movimento`.`IDUsuario` = `TB_Usuario`.`IDUsuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` - Not unique table/alias: 'TB_Movimento'[39m
+2022-10-08 16:10:23:1023 - [31merror[39m: [31mmovementRepository getAll - Exceção: Error: select `TB_Movimento`.`IDMovimento` as `id`, `TB_Movimento`.`Descricao` as `description`, `TB_Movimento`.`Tipo` as `type`, `TB_Movimento`.`DataMovimento` as `date`, `TB_Movimento`.`Valor` as `totalValue`, `TB_Usuario`.`IDUsuario` as `userId`, `TB_Usuario`.`Login` as `userLogin`, `TB_Usuario`.`Nome` as `userName`, `TB_Usuario`.`Status` as `userStatus`, `TB_Perfil`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Movimento` inner join `TB_Movimento` on `TB_Movimento`.`IDUsuario` = `TB_Usuario`.`IDUsuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` - Not unique table/alias: 'TB_Movimento'[39m
+2022-10-08 16:15:10:1510 - [31merror[39m: [31mmovementRepository getById - Exceção: Error: select `TB_Movimento`.`IDMovimento` as `id`, `TB_Movimento`.`Descricao` as `description`, `TB_Movimento`.`Tipo` as `type`, `TB_Movimento`.`DataMovimento` as `date`, `TB_Movimento`.`Valor` as `totalValue`, `TB_Usuario`.`IDUsuario` as `userId`, `TB_Usuario`.`Login` as `userLogin`, `TB_Usuario`.`Nome` as `userName`, `TB_Usuario`.`Status` as `userStatus`, `TB_Perfil`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Movimento` inner join `TB_Movimento` on `TB_Movimento`.`IDUsuario` = `TB_Usuario`.`IDUsuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Movimento`.`IDMovimento` = '3' - Not unique table/alias: 'TB_Movimento'[39m
+2022-10-08 16:15:10:1510 - [31merror[39m: [31mmovementController getById - Movimento não encontrado: 3[39m
+2022-10-08 16:16:44:1644 - [31merror[39m: [31mmovementService create - Movimento criado com sucesso: Abrindo caixa[39m
+2022-10-08 16:17:13:1713 - [31merror[39m: [31mmovementService create - Movimento criado com sucesso: Fechando caixa[39m
+2022-10-08 16:17:38:1738 - [31merror[39m: [31mmovementRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 16:17:38:1738 - [31merror[39m: [31mmovementController getById - Movimento não encontrado: 22[39m
+2022-10-08 16:21:23:2123 - [31merror[39m: [31mmovementService create - Movimento criado com sucesso: Fechando caixa[39m
+2022-10-08 16:27:26:2726 - [31merror[39m: [31mmovementRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 16:27:26:2726 - [31merror[39m: [31mmovementService update - Movimento não encontrado, id: 201[39m
+2022-10-08 16:27:50:2750 - [31merror[39m: [31mmovementService update - Movimento editado com sucesso: UTC alterando[39m
+2022-10-08 16:27:50:2750 - [31merror[39m: [31mmovementService update - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 16:32:17:3217 - [31merror[39m: [31mroleService create - Perfil criada com sucesso: Fodao[39m
+2022-10-08 16:32:48:3248 - [31merror[39m: [31mroleController getById - perfil não encontrado: 13[39m
+2022-10-08 16:34:18:3418 - [31merror[39m: [31munitOfMeasurementRepository getByDescription - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_UnidadeMedida.Descricao] query: select `TB_UnidadeMedida`.`IDUnidadeMedida` as `id`, `TB_UnidadeMedida`.`Descricao` as `description` from `TB_UnidadeMedida` where `TB_UnidadeMedida`.`Descricao` = ?[39m
+2022-10-08 16:34:18:3418 - [31merror[39m: [31munitOfMeasumentService create - Unidade de medida criada com sucesso: Grama[39m
+2022-10-08 16:34:20:3420 - [31merror[39m: [31munitOfMeasurementRepository getByDescription - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_UnidadeMedida.Descricao] query: select `TB_UnidadeMedida`.`IDUnidadeMedida` as `id`, `TB_UnidadeMedida`.`Descricao` as `description` from `TB_UnidadeMedida` where `TB_UnidadeMedida`.`Descricao` = ?[39m
+2022-10-08 16:34:20:3420 - [31merror[39m: [31munitOfMeasumentService create - Unidade de medida criada com sucesso: Grama[39m
+2022-10-08 16:36:28:3628 - [31merror[39m: [31munitOfMeasumentService create - Unidade de medida já existe: Grama[39m
+2022-10-08 16:36:33:3633 - [31merror[39m: [31munitOfMeasurementController getById - Unidade de medida não encontrada: 3[39m
+2022-10-08 16:36:37:3637 - [31merror[39m: [31munitOfMeasurementController getById - Unidade de medida não encontrada: 20[39m
+2022-10-08 16:37:07:377 - [31merror[39m: [31munitOfMeasumentService update - Já existe uma unidade de medida com este nome no banco: Grama[39m
+2022-10-08 16:37:25:3725 - [31merror[39m: [31munitOfMeasurementController getById - Unidade de medida não encontrada: 27[39m
+2022-10-08 16:43:24:4324 - [31merror[39m: [31muserRepository update - Exceção: Error: update `TB_Usuario` set `Login` = 'christ', `Nome` = 'Jesus', `Senha` = '$2b$10$cmLD3iHH3vpSLw3rJLLOUOJSQNu2obwUJJFAemlhaevrWAWB0yUXu', `Status` = 'Editado', `IDPerfil` = 3 where `TB_Usuario`.`IDUsuario` = '3' - Cannot add or update a child row: a foreign key constraint fails (`padaria_poo`.`TB_Usuario`, CONSTRAINT `FK6d22ovff0tdlij1nvbuhl5c9q` FOREIGN KEY (`IDPerfil`) REFERENCES `TB_Perfil` (`IDPerfil`))[39m
+2022-10-08 16:46:30:4630 - [31merror[39m: [31muserRepository update - Exceção: Error: update `TB_Usuario` set `IDUsuario` = '3', `Login` = 'christ', `Nome` = 'Jesus', `Senha` = '$2b$10$dfXeGa1jw.5CS3IirdBO8eqLEn6725beJ8EmXAJMnlWsjNJ1qwSgq', `Status` = 'Editado', `IDPerfil` = 3 where `TB_Usuario`.`IDUsuario` = '3' - Cannot add or update a child row: a foreign key constraint fails (`padaria_poo`.`TB_Usuario`, CONSTRAINT `FK6d22ovff0tdlij1nvbuhl5c9q` FOREIGN KEY (`IDPerfil`) REFERENCES `TB_Perfil` (`IDPerfil`))[39m
+2022-10-08 16:46:30:4630 - [31merror[39m: [31muserService update - Falha ao editar usuário, login christ, exceção: Falha ao editar usuário na base de dados[39m
+2022-10-08 16:48:16:4816 - [31merror[39m: [31muserRepository update - Exceção: Error: update `TB_Usuario` set `Login` = 'christ', `Nome` = 'Jesus', `Senha` = '$2b$10$qdYFPWWJz4hAXGM4qduhnen3BprmtAns6FFs1ZMm.Bqy1mS32GxWq', `Status` = 'Editado', `IDPerfil` = 3 where `TB_Usuario`.`IDUsuario` = '3' - Cannot add or update a child row: a foreign key constraint fails (`padaria_poo`.`TB_Usuario`, CONSTRAINT `FK6d22ovff0tdlij1nvbuhl5c9q` FOREIGN KEY (`IDPerfil`) REFERENCES `TB_Perfil` (`IDPerfil`))[39m
+2022-10-08 16:48:16:4816 - [31merror[39m: [31muserService update - Falha ao editar usuário, login christ, exceção: Falha ao editar usuário na base de dados[39m
+2022-10-08 16:49:08:498 - [31merror[39m: [31mroleController getById - perfil não encontrado: 3[39m
+2022-10-08 16:50:18:5018 - [31merror[39m: [31muserService update - Perfil não encontrado, usuario: 3[39m
+2022-10-08 16:51:08:518 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 16:51:38:5138 - [31merror[39m: [31mproductRepository getAll - Exceção: ReferenceError: id is not defined[39m
+2022-10-08 16:53:38:5338 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 16:53:38:5338 - [31merror[39m: [31mproductController getById - produto não encontrado: 200[39m
+2022-10-08 16:54:30:5430 - [31merror[39m: [31mcategoryService create - Categoria criada com sucesso: Alimentos[39m
+2022-10-08 16:55:16:5516 - [31merror[39m: [31munitOfMeasumentService create - Unidade de medida criada com sucesso: Pacote[39m
+2022-10-08 16:55:28:5528 - [31merror[39m: [31mproductService create - Produto criado com sucesso: rosquinha[39m
+2022-10-08 16:55:28:5528 - [31merror[39m: [31mproductService create - Exceção: ReferenceError: prod is not defined[39m
+2022-10-08 16:56:45:5645 - [31merror[39m: [31mproductService create - Produto criado com sucesso: Pão de Mel[39m
+2022-10-08 16:57:43:5743 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 16:57:43:5743 - [31merror[39m: [31mproductController getById - produto não encontrado: 22[39m
+2022-10-08 16:59:45:5945 - [31merror[39m: [31mproductService update - Produto editado com sucesso: Banana Caturra[39m
+2022-10-08 16:59:45:5945 - [31merror[39m: [31mproductService update - Exceção: ReferenceError: prod is not defined[39m
+2022-10-08 17:00:34:034 - [31merror[39m: [31mproductService update - Exceção: ReferenceError: prod is not defined[39m
+2022-10-08 17:01:15:115 - [31merror[39m: [31morderPadItemRepository getAll - Exceção: Error: select `TB_Item_Comanda`.`IDItemComanda` as `id`, `TB_Item_Comanda`.`Quantidade` as `quantity`, `TB_Item_Comanda`.`ValorUnitario` as `valueUnitary`, `TB_Comanda`.`IDComanda` as `orderPadId`, `TB_Comanda`.`DataComanda` as `orderPadDate`, `TB_Produto`.`IDProduto` as `productId`, `TB_Produto`.`Descricao` as `productDescription`, `TB_Produto`.`CodigoDeBarras` as `productBarCode`, `TB_Produto`.`Quantidade` as `productQuantity`, `TB_Produto`.`QuantidadeMinima` as `productMinQuantity`, `TB_Produto`.`ValorUnitario` as `productValueUnitary`, `TB_UnidadeMedida`.`IDUnidadeMedida` as `unitOfMeasurementId`, `TB_UnidadeMedida`.`Descricao` as `unitOfMeasurementDescription`, `TB_Category`.`IDCategoria` as `categoryId`, `TB_Category`.`Descricao` as `categoryDescription` from `TB_Item_Comanda` inner join `TB_Comanda` on `TB_Comanda`.`IDComanda` = `TB_Item_Comanda`.`IDItemComanda` inner join `TB_Produto` on `TB_Produto`.`IDProduto` = `TB_Item_Comanda`.`IDProduto` inner join `TB_UnidadeMedida` on `TB_UnidadeMedida`.`IDUnidadeMedida` = `TB_Produto`.`IDUnidadeMedida` inner join `TB_Categoria` on `TB_Category`.`IDCategoria` = `TB_Produto`.`IDCategoria` where `TB_Item_Comanda`.`IDProduto` = '1' - Table 'padaria_poo.TB_Produto' doesn't exist[39m
+2022-10-08 17:01:15:115 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:01:15:115 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:02:54:254 - [31merror[39m: [31morderPadItemRepository getAll - Exceção: Error: select `TB_Item_Comanda`.`IDItemComanda` as `id`, `TB_Item_Comanda`.`Quantidade` as `quantity`, `TB_Item_Comanda`.`ValorUnitario` as `valueUnitary`, `TB_Comanda`.`IDComanda` as `orderPadId`, `TB_Comanda`.`DataComanda` as `orderPadDate`, `TB_Produto`.`IDProduto` as `productId`, `TB_Produto`.`Descricao` as `productDescription`, `TB_Produto`.`CodigoDeBarras` as `productBarCode`, `TB_Produto`.`Quantidade` as `productQuantity`, `TB_Produto`.`QuantidadeMinima` as `productMinQuantity`, `TB_Produto`.`ValorUnitario` as `productValueUnitary`, `TB_UnidadeMedida`.`IDUnidadeMedida` as `unitOfMeasurementId`, `TB_UnidadeMedida`.`Descricao` as `unitOfMeasurementDescription`, `TB_Category`.`IDCategoria` as `categoryId`, `TB_Category`.`Descricao` as `categoryDescription` from `TB_Item_Comanda` inner join `TB_Comanda` on `TB_Comanda`.`IDComanda` = `TB_Item_Comanda`.`IDItemComanda` inner join `TB_Produto` on `TB_Produto`.`IDProduto` = `TB_Item_Comanda`.`IDProduto` inner join `TB_UnidadeMedida` on `TB_UnidadeMedida`.`IDUnidadeMedida` = `TB_Produto`.`IDUnidadeMedida` inner join `TB_Categoria` on `TB_Categoria`.`IDCategoria` = `TB_Produto`.`IDCategoria` where `TB_Item_Comanda`.`IDProduto` = '1' - Table 'padaria_poo.TB_Produto' doesn't exist[39m
+2022-10-08 17:02:54:254 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:02:54:254 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:04:06:46 - [31merror[39m: [31morderPadItemRepository getAll - Exceção: Error: select `TB_Item_Comanda`.`IDItemComanda` as `id`, `TB_Item_Comanda`.`Quantidade` as `quantity`, `TB_Item_Comanda`.`ValorUnitario` as `valueUnitary`, `TB_Comanda`.`IDComanda` as `orderPadId`, `TB_Comanda`.`DataComanda` as `orderPadDate`, `TB_Produtos`.`IDProduto` as `productId`, `TB_Produtos`.`Descricao` as `productDescription`, `TB_Produtos`.`CodigoDeBarras` as `productBarCode`, `TB_Produtos`.`Quantidade` as `productQuantity`, `TB_Produtos`.`QuantidadeMinima` as `productMinQuantity`, `TB_Produtos`.`ValorUnitario` as `productValueUnitary`, `TB_UnidadeMedida`.`IDUnidadeMedida` as `unitOfMeasurementId`, `TB_UnidadeMedida`.`Descricao` as `unitOfMeasurementDescription`, `TB_Category`.`IDCategoria` as `categoryId`, `TB_Category`.`Descricao` as `categoryDescription` from `TB_Item_Comanda` inner join `TB_Comanda` on `TB_Comanda`.`IDComanda` = `TB_Item_Comanda`.`IDItemComanda` inner join `TB_Produtos` on `TB_Produtos`.`IDProduto` = `TB_Item_Comanda`.`IDProduto` inner join `TB_UnidadeMedida` on `TB_UnidadeMedida`.`IDUnidadeMedida` = `TB_Produtos`.`IDUnidadeMedida` inner join `TB_Categoria` on `TB_Categoria`.`IDCategoria` = `TB_Produtos`.`IDCategoria` where `TB_Item_Comanda`.`IDProduto` = '1' - Unknown column 'TB_Category.IDCategoria' in 'field list'[39m
+2022-10-08 17:04:06:46 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:04:06:46 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:04:41:441 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:04:41:441 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:05:13:513 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:05:13:513 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:05:50:550 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:05:50:550 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:06:12:612 - [31merror[39m: [31mproductRepository remove - Exceção: Error: delete from `TB_Produtos` where `TB_Produtos`.`IDProduto` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Item_Comanda`, CONSTRAINT `FK_Produto` FOREIGN KEY (`IDProduto`) REFERENCES `TB_Produtos` (`IDProduto`))[39m
+2022-10-08 17:06:12:612 - [31merror[39m: [31mproductService remove - Falha ao deletar, id: 1[39m
+2022-10-08 17:08:38:838 - [31merror[39m: [31mproductService remove - Produto possui vinculo com um ou mais itens de comanda, id: 1[39m
+2022-10-08 17:08:48:848 - [31merror[39m: [31mproductService remove - Produto possui vinculo com um ou mais itens de comanda, id: 1[39m
+2022-10-08 17:19:32:1932 - [31merror[39m: [31mcategoryService remove - Categoria possui vinculo com um ou mais produtos, id: 89[39m
+2022-10-08 17:21:32:2132 - [31merror[39m: [31morderPadService update - Comanda editada com sucesso: 25[39m
+2022-10-08 17:21:32:2132 - [31merror[39m: [31morderPadService update - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 17:22:29:2229 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'IDComanda')[39m
+2022-10-08 17:22:29:2229 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:23:55:2355 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:23:55:2355 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:24:11:2411 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:24:11:2411 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:24:40:2440 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:24:40:2440 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:25:25:2525 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:25:25:2525 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:25:45:2545 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:25:45:2545 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:26:34:2634 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:26:34:2634 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:30:12:3012 - [31merror[39m: [31morderPadController getById - comanda não encontrada: 2[39m
+2022-10-08 17:32:36:3236 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 17:32:36:3236 - [31merror[39m: [31morderPadService update - Comanda não existe, id: 49[39m
+2022-10-08 17:58:17:5817 - [31merror[39m: [31mOrderRepository create - Exceção: Error: insert into `TB_Comanda` (`date`) values ('2022-10-08') - Unknown column 'date' in 'field list'[39m
+2022-10-08 17:58:17:5817 - [31merror[39m: [31morderPadService createFull - Falha ao criar comanda, Falha ao criar Comanda na base de dados[39m
+2022-10-08 18:01:27:127 - [31merror[39m: [31mOrderRepository create - Exceção: Error: insert into `TB_Comanda` (`date`) values ('2022-10-08') - Unknown column 'date' in 'field list'[39m
+2022-10-08 18:01:27:127 - [31merror[39m: [31morderPadService createFull - Falha ao criar comanda, Falha ao criar Comanda na base de dados[39m
+2022-10-08 18:02:52:252 - [31merror[39m: [31morderPadService createFull - Exceção: ReferenceError: rest is not defined[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31morderPadItemService create - Comanda não encontrada para vincular, id: 59[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31morderPadItemService create - Comanda não encontrada para vincular, id: 59[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 26 e quantidade: 5[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:04:29:429 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31morderPadItemService create - Comanda não encontrada para vincular, id: 60[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31morderPadItemService create - Comanda não encontrada para vincular, id: 60[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 26 e quantidade: 5[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:08:16:816 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:11:24:1124 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-08 18:12:52:1252 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:12:52:1252 - [31merror[39m: [31morderPadItemService create - Comanda não encontrada para vincular, id: 61[39m
+2022-10-08 18:13:22:1322 - [31merror[39m: [31morderPadItemService create - Comanda não encontrada para vincular, id: 61[39m
+2022-10-08 18:14:07:147 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:14:22:1422 - [31merror[39m: [31morderPadItemService create - Item de comanda criado com sucesso: 1[39m
+2022-10-08 18:15:27:1527 - [31merror[39m: [31morderPadItemService create - Item de comanda criado com sucesso: 2[39m
+2022-10-08 18:15:42:1542 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: rosquinha, [39m
+[31m                quantidade em estoque: 4.00, [39m
+[31m                quantidade informada: 6[39m
+2022-10-08 18:15:50:1550 - [31merror[39m: [31morderPadItemService create - Item de comanda criado com sucesso: 3[39m
+2022-10-08 18:16:22:1622 - [31merror[39m: [31morderPadItemService update - Item de comanda editado com sucesso: 3[39m
+2022-10-08 18:16:22:1622 - [31merror[39m: [31morderPadItemService update - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 18:18:28:1828 - [31merror[39m: [31morderPadItemService update - Item de comanda editado com sucesso: 3[39m
+2022-10-08 18:18:28:1828 - [31merror[39m: [31morderPadItemService update - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-08 18:26:11:2611 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-08 18:27:02:272 - [31merror[39m: [31mOrderRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:27:02:272 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:28:43:2843 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:28:43:2843 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:30:01:301 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:30:01:301 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:30:01:301 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:30:01:301 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:31:05:315 - [31merror[39m: [31morderPadService remove - Exceção: TypeError: Cannot read properties of undefined (reading 'success')[39m
+2022-10-08 18:34:13:3413 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:34:13:3413 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:34:13:3413 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:34:13:3413 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:34:47:3447 - [31merror[39m: [31morderPadService remove - Falha ao deletar, id: 67[39m
+2022-10-08 18:36:39:3639 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:36:39:3639 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:36:39:3639 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:36:39:3639 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:36:50:3650 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:36:50:3650 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:36:50:3650 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:36:50:3650 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:39:52:3952 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:39:52:3952 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:39:52:3952 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:39:52:3952 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:40:29:4029 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of undefined (reading 'message')[39m
+2022-10-08 18:41:57:4157 - [31merror[39m: [31mOrderPadRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'idComanda')[39m
+2022-10-08 18:41:57:4157 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: Cannot read properties of null (reading 'id')[39m
+2022-10-08 18:41:57:4157 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:41:57:4157 - [31merror[39m: [31morderPadService createFull - Falha ao inserir item de comanda no banco de dados, [39m
+[31m                        id do produto: 27 e quantidade: 3[39m
+2022-10-08 18:45:25:4525 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:45:25:4525 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of undefined (reading 'message')[39m
+2022-10-08 18:46:36:4636 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Pão de Mel, [39m
+[31m                quantidade em estoque: 1.00, [39m
+[31m                quantidade informada: 3[39m
+2022-10-08 18:46:36:4636 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of undefined (reading 'message')[39m
+2022-10-08 18:51:44:5144 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: trans.rollback is not a function[39m
+2022-10-08 18:52:18:5218 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: trans.rollback is not a function[39m
+2022-10-09 13:32:26:3226 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:32:26:3226 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:32:26:3226 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:34:51:3451 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:34:51:3451 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:35:42:3542 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:35:42:3542 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:35:42:3542 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:36:14:3614 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:36:14:3614 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:36:14:3614 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:36:51:3651 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:36:51:3651 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:36:51:3651 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:37:41:3741 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:37:41:3741 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:37:41:3741 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:38:07:387 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:38:07:387 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:38:07:387 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:38:22:3822 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:38:22:3822 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:38:22:3822 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:38:54:3854 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:38:54:3854 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:38:54:3854 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:39:34:3934 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 13:39:34:3934 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:39:34:3934 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:43:34:4334 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:43:34:4334 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:43:41:4341 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:43:41:4341 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:44:23:4423 - [31merror[39m: [31mproductRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-09 13:44:23:4423 - [31merror[39m: [31morderPadService createFull - Produto não encontrado, id: 200[39m
+2022-10-09 13:44:31:4431 - [31merror[39m: [31morderPadService createFull - Exceção: ReferenceError: item is not defined[39m
+2022-10-09 13:45:06:456 - [31merror[39m: [31morderPadService createFull - Quantidade de produto insuficiente em estoque, id: 27, quantidade em estoque: 1.00, quantidade informada: 300[39m
+2022-10-09 13:45:20:4520 - [31merror[39m: [31morderPadController createFull - Exceção: TypeError: Cannot read properties of null (reading 'message')[39m
+2022-10-09 14:51:11:5111 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: trans.rollback is not a function[39m
+2022-10-09 14:53:56:5356 - [31merror[39m: [31morderPadService createFull - Exceção: TypeError: trans.rollback is not a function[39m
+2022-10-09 14:55:46:5546 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 27[39m
+2022-10-09 14:55:46:5546 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 14:56:44:5644 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 27[39m
+2022-10-09 14:56:44:5644 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 14:57:30:5730 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 27[39m
+2022-10-09 14:57:30:5730 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 14:58:10:5810 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 27[39m
+2022-10-09 14:58:11:5811 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 14:59:30:5930 - [31merror[39m: [31mOrderRepository createOrderAndItems - Exceção: ReferenceError: itemIds is not defined[39m
+2022-10-09 14:59:30:5930 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 14:59:53:5953 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 27[39m
+2022-10-09 14:59:53:5953 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 15:03:37:337 - [31merror[39m: [31mOrderRepository createOrderAndItems - Exceção: ReferenceError: itemids is not defined[39m
+2022-10-09 15:03:37:337 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 15:04:11:411 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 15:05:56:556 - [31merror[39m: [31morderPadService createFull - Quantidade de produto insuficiente em estoque, id: 24, quantidade em estoque: 5.00, quantidade informada: 6[39m
+2022-10-09 15:13:35:1335 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 15:14:52:1452 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 24[39m
+2022-10-09 15:14:52:1452 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 15:16:20:1620 - [31merror[39m: [31mOrderRepository createOrderAndItems - Falha ao atualizar quantidade de produto em estoque, id: 24[39m
+2022-10-09 15:16:20:1620 - [31merror[39m: [31morderPadService createfull - Falha ao inserir comanda e itens[39m
+2022-10-09 23:15:24:1524 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of undefined (reading 'password')[39m
+2022-10-09 23:15:24:1524 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:16:17:1617 - [31merror[39m: [31maccountService login - Exceção: ReferenceError: email is not defined[39m
+2022-10-09 23:16:17:1617 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:17:19:1719 - [31merror[39m: [31maccountService login - Exceção: TypeError: Cannot read properties of undefined (reading 'password')[39m
+2022-10-09 23:17:19:1719 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:17:27:1727 - [31merror[39m: [31maccountService login - Exceção: ReferenceError: email is not defined[39m
+2022-10-09 23:17:27:1727 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:17:58:1758 - [31merror[39m: [31maccountService login - Exceção: ReferenceError: email is not defined[39m
+2022-10-09 23:17:58:1758 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:19:25:1925 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:20:41:2041 - [31merror[39m: [31maccountController login - Exceção: ReferenceError: result is not defined[39m
+2022-10-09 23:21:16:2116 - [31merror[39m: [31maccountService login - Exceção: ReferenceError: email is not defined[39m
+2022-10-12 19:37:00:370 - [31merror[39m: [31muserRepository getById - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.IDUsuario] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`IDUsuario` = ?[39m
+2022-10-12 19:37:34:3734 - [31merror[39m: [31muserRepository getById - Exceção: Error: Undefined binding(s) detected when compiling SELECT. Undefined column(s): [TB_Usuario.IDUsuario] query: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`IDUsuario` = ?[39m
+2022-10-14 22:23:47:2347 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-14 22:23:59:2359 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-14 23:30:06:306 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-14 23:35:19:3519 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-14 23:35:46:3546 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-14 23:35:52:3552 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '9' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-14 23:35:52:3552 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 9[39m
+2022-10-14 23:36:30:3630 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '9' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-14 23:36:30:3630 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 9[39m
+2022-10-14 23:38:22:3822 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '9' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-14 23:38:22:3822 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 9[39m
+2022-10-14 23:48:20:4820 - [31merror[39m: [31muserController getById - Usuário não encontrado: 26[39m
+2022-10-14 23:48:26:4826 - [31merror[39m: [31muserController getById - Usuário não encontrado: 7[39m
+2022-10-15 00:16:04:164 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '4' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 00:16:04:164 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 4[39m
+2022-10-15 00:16:09:169 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 00:16:09:169 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 1[39m
+2022-10-15 00:16:15:1615 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-15 14:18:42:1842 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-15 14:21:57:2157 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '9' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 14:21:57:2157 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 9[39m
+2022-10-15 14:56:09:569 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-15 15:35:32:3532 - [31merror[39m: [31muserController getById - Usuário não encontrado: 500[39m
+2022-10-15 15:35:39:3539 - [31merror[39m: [31muserController getById - Usuário não encontrado: 500[39m
+2022-10-15 15:36:40:3640 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 15:36:40:3640 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 1[39m
+2022-10-15 16:52:52:5252 - [31merror[39m: [31mproductService remove - Produto possui vinculo com um ou mais itens de comanda, id: 24[39m
+2022-10-15 16:52:56:5256 - [31merror[39m: [31mproductService remove - Produto possui vinculo com um ou mais itens de comanda, id: 24[39m
+2022-10-15 17:02:54:254 - [31merror[39m: [31mproductService remove - Produto possui vinculo com um ou mais itens de comanda, id: 24[39m
+2022-10-15 17:02:58:258 - [31merror[39m: [31mproductService remove - Produto possui vinculo com um ou mais itens de comanda, id: 26[39m
+2022-10-15 17:45:14:4514 - [31merror[39m: [31mcategoryService create - Categoria criada com sucesso: Utilitários[39m
+2022-10-15 18:04:23:423 - [31merror[39m: [31mcategoryService remove - Categoria possui vinculo com um ou mais produtos, id: 2[39m
+2022-10-15 18:04:32:432 - [31merror[39m: [31munitOfMeasumentService remove - Unidade de medida possui vinculo com um ou mais produtos, id: 1[39m
+2022-10-15 18:04:39:439 - [31merror[39m: [31munitOfMeasumentService remove - Unidade de medida possui vinculo com um ou mais produtos, id: 1[39m
+2022-10-15 18:06:30:630 - [31merror[39m: [31munitOfMeasumentService create - Unidade de medida criada com sucesso: Nova[39m
+2022-10-15 18:07:35:735 - [31merror[39m: [31munitOfMeasumentService create - Unidade de medida já existe: Nova[39m
+2022-10-15 18:07:51:751 - [31merror[39m: [31munitOfMeasumentService update - Já existe uma unidade de medida com este nome no banco: Unidade[39m
+2022-10-15 18:08:19:819 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 18:08:19:819 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 1[39m
+2022-10-15 18:08:26:826 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 18:08:26:826 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 1[39m
+2022-10-15 18:08:36:836 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '4' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 18:08:36:836 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 4[39m
+2022-10-15 18:08:40:840 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '9' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-15 18:08:40:840 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 9[39m
+2022-10-15 18:08:43:843 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-15 18:26:12:2612 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 11[39m
+2022-10-15 18:26:18:2618 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 4[39m
+2022-10-15 18:26:23:2623 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 4[39m
+2022-10-15 18:26:31:2631 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 11[39m
+2022-10-15 18:26:34:2634 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 6[39m
+2022-10-15 18:26:37:2637 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 4[39m
+2022-10-15 18:26:40:2640 - [31merror[39m: [31mroleService remove - Perfil possui vínculo com usuários, id: 18[39m
+2022-10-15 18:27:00:270 - [31merror[39m: [31mroleService create - Perfil criada com sucesso: Novo[39m
+2022-10-15 18:27:04:274 - [31merror[39m: [31mroleService create - Perfil já existe: Novo[39m
+2022-10-15 18:27:08:278 - [31merror[39m: [31mroleService create - Perfil criada com sucesso: Novo outro[39m
+2022-10-15 18:27:15:2715 - [31merror[39m: [31mroleService update - Já existe um perfil com este nome no banco: Master[39m
+2022-10-20 20:42:13:4213 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-27 21:58:34:5834 - [31merror[39m: [31muserRepository getById - Exceção: Error: select `TB_Usuario`.`IDUsuario` as `id`, `TB_Usuario`.`Login` as `login`, `TB_Usuario`.`Nome` as `name`, `TB_Usuario`.`Status` as `status`, `TB_Usuario`.`IDPerfil` as `roleId`, `TB_Perfil`.`Descricao` as `roleName` from `TB_Usuario` inner join `TB_Perfil` on `TB_Perfil`.`IDPerfil` = `TB_Usuario`.`IDPerfil` where `TB_Usuario`.`IDUsuario` = 33 - read ECONNRESET[39m
+2022-10-27 21:58:34:5834 - [31merror[39m: [31mcategoryRepository getAll - Exceção: Error: select `TB_Categoria`.`IDCategoria` as `id`, `TB_Categoria`.`Descricao` as `description` from `TB_Categoria` - read ECONNRESET[39m
+2022-10-29 11:18:20:1820 - [31merror[39m: [31morderPadItemService create - [39m
+[31m                não há produtos suficientes em estoque, [39m
+[31m                produto: Cachaça 51 do Lula, [39m
+[31m                quantidade em estoque: 1.01, [39m
+[31m                quantidade informada: 5[39m
+2022-10-29 12:00:36:036 - [31merror[39m: [31morderPadItemRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-29 12:00:36:036 - [31merror[39m: [31morderPadItemService update - Item de comanda não existe, id: 94[39m
+2022-10-29 12:01:15:115 - [31merror[39m: [31morderPadItemRepository getById - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-29 12:01:15:115 - [31merror[39m: [31morderPadItemService update - Item de comanda não existe, id: 94[39m
+2022-10-29 12:14:19:1419 - [31merror[39m: [31mmovementRepository getByUserId - Exceção: TypeError: Cannot read properties of undefined (reading 'id')[39m
+2022-10-29 12:14:25:1425 - [31merror[39m: [31muserRepository remove - Exceção: Error: delete from `TB_Usuario` where `TB_Usuario`.`IDUsuario` = '1' - Cannot delete or update a parent row: a foreign key constraint fails (`padaria_poo`.`TB_Movimento`, CONSTRAINT `FK_User` FOREIGN KEY (`IDUsuario`) REFERENCES `TB_Usuario` (`IDUsuario`))[39m
+2022-10-29 12:14:25:1425 - [31merror[39m: [31muserService remove - Falha ao deletar, id: 1[39m
+2022-11-03 21:23:01:231 - [31merror[39m: [31mcategoryService remove - Categoria possui vinculo com um ou mais produtos, id: 2[39m
+2022-11-03 21:25:03:253 - [31merror[39m: [31mOrderRepository remove - Falha ao remover itens de comanda no banco[39m
+2022-11-03 21:25:03:253 - [31merror[39m: [31morderPadService remove - Falha ao deletar, id: 99[39m
